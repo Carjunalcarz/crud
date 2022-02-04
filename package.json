@@ -1,0 +1,21 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Aljun Cardona",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-mongo": "^1.9.3",
+    "koa-router": "^10.1.1",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15",
+    "ramda": "^0.28.0"
+  }
+}
